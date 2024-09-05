@@ -1,19 +1,25 @@
+/*============Common styles============*/
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #fff;
 }
-ul,
-ol {
-  list-style-type: none;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-button {
-  cursor: pointer;
-}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -23,33 +29,41 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .header-logo {
   margin-right: 76px;
 }
+
 .footer-logo {
   margin-bottom: 16px;
 }
+
 .header-logo .logo-part {
   color: #2e2f42;
 }
+
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
+
 .contacts {
   font-style: normal;
 }
+
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .page-footer {
   background-color: #2e2f42;
 }
