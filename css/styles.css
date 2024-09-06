@@ -102,6 +102,10 @@ body {
 
 /*============OUR APPROACH STYLES============*/
 
+.approach-list {
+  background-color: #fff;
+}
+
 .section-title-invisible {
   display: none;
 }
@@ -120,21 +124,34 @@ body {
   color: #434455;
 }
 
+.approach-title-invisible {
+  text-transform: capitalize;
+}
+
+.approach-list-title {
+  text-transform: capitalize;
+}
+
 /*============/OUR APPROACH STYLES============*/
 
 /*============REVIEW SECTION STYLES============*/
 
-.review-section {
+.review-list {
   background: #f4f4fd;
 }
 
-.section-title {
+.review-list-item {
+  background-color: #ffffff;
+}
+
+.review-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .review-list-fullname {
@@ -144,6 +161,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .review-list-text {
@@ -165,6 +183,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-list-title {
@@ -173,18 +192,18 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
-.portfolio-list-link {
+.portfolio-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.portfolio-list-link:hover,
-.portfolio-list-link:focus {
-  color: #404bbf;
+.portfolio-section {
+  background: #fff;
 }
 
 /*============/PORTFOLIO SECTION STYLES============*/
@@ -195,9 +214,9 @@ body {
   color: #f4f4fd;
 }
 
-.footer-logo {
+/*.footer-logo {
   margin-bottom: 16px;
-}
+}*/
 
 .page-footer-text {
   font-size: 16px;
