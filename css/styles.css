@@ -40,9 +40,9 @@ body {
   color: #4d5ae5;
 }
 
-.header-logo {
+/*.header-logo {
   margin-right: 76px;
-}
+}*/
 
 .header-logo .logo-part {
   color: #2e2f42;
@@ -106,8 +106,8 @@ body {
   background-color: #fff;
 }
 
-.section-title-invisible {
-  display: none;
+/*.section-title-invisible {
+  display: none;*/
 }
 .approach-list-title {
   font-weight: 500;
