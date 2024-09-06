@@ -136,6 +136,10 @@ body {
 
 /*============REVIEW SECTION STYLES============*/
 
+.review-section {
+  background: #f4f4fd;
+}
+
 .review-list {
   background: #f4f4fd;
 }
